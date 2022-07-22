@@ -1,0 +1,35 @@
+.coin {
+    margin: 10px 0;
+    padding: 0 20px;
+    border-bottom: 2px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.coin-1 {
+    display: flex;
+}
+img {
+    width: 35px;
+    height: 35px;
+    align-self: center;
+}
+.coin-name {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding-left: 5px;
+}
+.coin-info {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+}
+.red {
+    color: red;
+}
+.green {
+    color: lime;
+}

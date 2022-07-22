@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+.wrapper {
+    background-color: transparent;
+}
+.search-wrapper {
+    background-color: transparent;
+    text-align: center;
+    padding: 50px 0;
+}
+.input {
+    background: linear-gradient(to right, blue, purple);
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    color: white;
+    font-size: 11pt;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.input::placeholder {
+    color: white;
+    font-family: monospace;
+}
+.coin-wrapper {
+    padding: 0 200px;
+}
